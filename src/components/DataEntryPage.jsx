@@ -148,7 +148,7 @@ function DataEntryPage({ onSubmit, initialData }) {
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold gradient-text mb-4 neon-text">
+          <h1 className="text-3xl font-bold gradient-text mb-4 ">
             Create Your Portfolio
           </h1>
           <p className="text-gray-600 dark:text-gray-300">
@@ -205,7 +205,7 @@ function DataEntryPage({ onSubmit, initialData }) {
                   name="description"
                   value={formData.description}
                   onChange={handleChange}
-                  rows={4}
+                  rows={2}
                   className="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-800/50 transition-all duration-300"
                   required
                 />
@@ -332,7 +332,7 @@ function DataEntryPage({ onSubmit, initialData }) {
                             e.target.value
                           )
                         }
-                        rows={3}
+                        rows={2}
                         className="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-800/50 transition-all duration-300"
                         required
                       />

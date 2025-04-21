@@ -16,12 +16,6 @@ function HeroSection({ name, shortBio }) {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 via-pink-400/20 to-blue-500/20 dark:from-purple-900/30 dark:via-pink-900/30 dark:to-blue-900/30 z-0"></div>
 
-      {/* Animated background blobs */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-300 dark:bg-purple-800/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-        <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-pink-300 dark:bg-pink-800/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute bottom-1/4 right-1/3 w-64 h-64 bg-blue-300 dark:bg-blue-800/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-      </div>
 
       <div className="container mx-auto px-4 z-10">
         <div className="text-center space-y-8 max-w-3xl mx-auto">

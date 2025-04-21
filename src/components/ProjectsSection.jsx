@@ -85,10 +85,6 @@ function ProjectsSection({ projects = [], updateProjectOrder }) {
             </Droppable>
           </DragDropContext>
         )}
-
-        <div className="text-center mt-8 text-sm text-gray-500 dark:text-gray-400">
-          <p>Drag and drop to reorder projects</p>
-        </div>
       </div>
     </section>
   );
